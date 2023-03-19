@@ -13,6 +13,10 @@
 		BC5C838F29C0B35A009A27EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC5C838D29C0B35A009A27EB /* Main.storyboard */; };
 		BC5C839129C0B35E009A27EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC5C839029C0B35E009A27EB /* Assets.xcassets */; };
 		BC5C839429C0B35E009A27EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC5C839229C0B35E009A27EB /* LaunchScreen.storyboard */; };
+		BC5C839C29C0B497009A27EB /* Soraka.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BC5C839B29C0B497009A27EB /* Soraka.jpeg */; };
+		BC5C839E29C0B49F009A27EB /* Ahri.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BC5C839D29C0B49E009A27EB /* Ahri.jpeg */; };
+		BC5C83A029C0B4A3009A27EB /* Zed.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BC5C839F29C0B4A3009A27EB /* Zed.jpeg */; };
+		BC5C83A229C20D77009A27EB /* ZoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5C83A129C20D77009A27EB /* ZoomViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		BC5C839029C0B35E009A27EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC5C839329C0B35E009A27EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC5C839529C0B35E009A27EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC5C839B29C0B497009A27EB /* Soraka.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Soraka.jpeg; sourceTree = "<group>"; };
+		BC5C839D29C0B49E009A27EB /* Ahri.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ahri.jpeg; sourceTree = "<group>"; };
+		BC5C839F29C0B4A3009A27EB /* Zed.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zed.jpeg; sourceTree = "<group>"; };
+		BC5C83A129C20D77009A27EB /* ZoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +67,14 @@
 				BC5C838729C0B35A009A27EB /* AppDelegate.swift */,
 				BC5C838929C0B35A009A27EB /* SceneDelegate.swift */,
 				BC5C838B29C0B35A009A27EB /* ViewController.swift */,
+				BC5C83A129C20D77009A27EB /* ZoomViewController.swift */,
 				BC5C838D29C0B35A009A27EB /* Main.storyboard */,
 				BC5C839029C0B35E009A27EB /* Assets.xcassets */,
 				BC5C839229C0B35E009A27EB /* LaunchScreen.storyboard */,
 				BC5C839529C0B35E009A27EB /* Info.plist */,
+				BC5C839B29C0B497009A27EB /* Soraka.jpeg */,
+				BC5C839D29C0B49E009A27EB /* Ahri.jpeg */,
+				BC5C839F29C0B4A3009A27EB /* Zed.jpeg */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";
@@ -125,8 +137,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC5C839C29C0B497009A27EB /* Soraka.jpeg in Resources */,
 				BC5C839429C0B35E009A27EB /* LaunchScreen.storyboard in Resources */,
 				BC5C839129C0B35E009A27EB /* Assets.xcassets in Resources */,
+				BC5C83A029C0B4A3009A27EB /* Zed.jpeg in Resources */,
+				BC5C839E29C0B49F009A27EB /* Ahri.jpeg in Resources */,
 				BC5C838F29C0B35A009A27EB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +156,7 @@
 				BC5C838C29C0B35A009A27EB /* ViewController.swift in Sources */,
 				BC5C838829C0B35A009A27EB /* AppDelegate.swift in Sources */,
 				BC5C838A29C0B35A009A27EB /* SceneDelegate.swift in Sources */,
+				BC5C83A229C20D77009A27EB /* ZoomViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
