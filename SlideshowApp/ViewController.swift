@@ -107,7 +107,7 @@ class ViewController: UIViewController {
     @IBAction func playStop(_ sender: Any) {
         print ("playStop")
         if self.timer == nil {
-            self.timer = Timer.scheduledTimer(timeInterval: 0.5, target: self, selector: #selector(changeimage), userInfo: nil, repeats: true)
+            self.timer = Timer.scheduledTimer(timeInterval: 2.0, target: self, selector: #selector(changeimage), userInfo: nil, repeats: true)
                 nextOutlet.isEnabled = false
                 prevOutlet.isEnabled = false
                 playStopOutlet.setTitle("停止", for: .normal)
